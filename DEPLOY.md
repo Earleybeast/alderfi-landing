@@ -64,14 +64,14 @@ The analytics script at `/_vercel/insights/script.js` is already wired in via `l
 
 ---
 
-## Step 7 — Swap in real copy (when HELA-448 delivers)
+## Step 7 — Swap in real copy ✅ DONE (2026-04-16)
 
-All placeholder text is marked with `// COPY:` comments in:
-- `src/app/page.tsx` — hero, features, FAQ, CTAs
-- `src/app/layout.tsx` — meta title, description, OG tags
-- `src/app/components/WaitlistForm.tsx` — CTA microcopy
+HELA-448 copy has been incorporated. The one remaining swap is the product name:
 
-Search the repo for `// COPY:` to find all swap points.
+- `PRODUCT_NAME` in `src/app/page.tsx` (line 8)
+- Three metadata strings in `src/app/layout.tsx`
+
+When HELA-449 (Banshee) picks the name, find `{{PROJECT_NAME}}` and replace with the final name. Also update `GITHUB_ORG` and `DOMAIN` in `page.tsx`.
 
 ---
 
