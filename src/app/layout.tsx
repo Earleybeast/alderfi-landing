@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
-// NAME PENDING HELA-449: Update the three title/description strings below once
-// the product name is resolved.
 export const metadata: Metadata = {
-  title: "{{PROJECT_NAME}} — AI-Native Personal Finance, Open Source",
+  metadataBase: new URL("https://alderfi.org"),
+  title: "Alderfi — AI-Native Personal Finance, Open Source",
   description:
     "Your AI financial assistant. Open source. Self-hosted. A conversational CFO built on MCP — private by design, portable by default, auditable always.",
   openGraph: {
-    title: "{{PROJECT_NAME}} — AI-Native Personal Finance, Open Source",
+    title: "Alderfi — AI-Native Personal Finance, Open Source",
     description:
       "Your AI financial assistant. Open source. Self-hosted. Private by design, portable by default, auditable always.",
+    url: "https://alderfi.org",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "{{PROJECT_NAME}}",
+    title: "Alderfi",
     description:
       "Open-source, self-hosted AI personal finance. Conversational CFO built on MCP.",
   },

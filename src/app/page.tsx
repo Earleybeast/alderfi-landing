@@ -1,13 +1,8 @@
 import { WaitlistForm } from "./components/WaitlistForm";
 
-// ─── NAME PENDING HELA-449 ────────────────────────────────────────────────────
-// When Banshee resolves the product name in HELA-449, update PRODUCT_NAME and
-// GITHUB_ORG below. All copy uses these constants — no other changes needed.
-// ─────────────────────────────────────────────────────────────────────────────
-const PRODUCT_NAME = "{{PROJECT_NAME}}"; // swap when HELA-449 resolves
-const GITHUB_ORG = "helptech"; // swap to final org when HELA-449 resolves
-const GITHUB_URL = `https://github.com/${GITHUB_ORG}/${PRODUCT_NAME}`;
-const DOMAIN = "{{DOMAIN}}"; // swap when domain is registered (HELA-450)
+const PRODUCT_NAME = "Alderfi";
+const GITHUB_URL = "https://github.com/alderfi/alderfi"; // repo name TBD by Banshee (HELA-449) — update if different
+const DOMAIN = "alderfi.org";
 
 const FEATURES = [
   {
