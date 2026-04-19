@@ -1,7 +1,7 @@
 import { WaitlistForm } from "./components/WaitlistForm";
 
 const PRODUCT_NAME = "Alderfi";
-const GITHUB_URL = "https://github.com/alderfi/alderfi"; // repo name TBD by Banshee (HELA-449) — update if different
+const GITHUB_URL = "https://github.com/Earleybeast/mcp"; // product source — Banshee's MCP scaffold (HELA-449). Landing page source lives at Earleybeast/alderfi-landing
 const DOMAIN = "alderfi.org";
 
 const FEATURES = [
